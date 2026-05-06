@@ -39,9 +39,15 @@ It’s designed for gamers who want a quick overview of their performance across
 ## 🚀 How to Run
 
 ### 0. Install dependencies
+```bash
 pip install streamlit pandas plotly
-
+```
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/gaming-dashboard.git
 cd gaming-dashboard
+```
+### 2. Run the app
+```bash
+streamlit run app.py
+```
