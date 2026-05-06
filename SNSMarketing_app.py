@@ -54,7 +54,7 @@ c3.metric("Total Engagement", int(df["Engagement"].sum()))
 def color_roi(val):
     return "background-color:#d4edda" if val>0 else "background-color:#f8d7da"
 
-st.dataframe(df.style.applymap(color_roi, subset=["ROI"]), width="stretch")
+st.dataframe(df.applymap(color_roi, subset=["ROI"]), width="stretch")
 
 # 차트
 st.subheader("Weekly Performance")
